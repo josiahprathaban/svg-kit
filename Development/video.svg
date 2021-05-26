@@ -1,12 +1,12 @@
-<svg viewBox="107.798 192.049 84.684 71.668" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+<svg viewBox="107.798 192.049 84.684 71.668" xmlns="http://www.w3.org/2000/svg">
   <style>
     :root{
-      --border-color: rgb(72, 190, 163);
-      --back-color: rgba(183, 244, 212, 0.36);
+      --border-color: rgb(133, 167, 130);
+      --back-color: rgb(194, 228, 191);
   }
   </style>
   <defs></defs>
-  <rect x="109.202" y="193.256" width="72.058" height="12.845" style="fill: var(--back-color);"></rect>
+  <rect x="109.202" y="193.256" width="72.058" height="12.845" style="fill: var(--back-color); stroke: var(--border-color);"></rect>
   <rect x="109.306" y="193.465" width="71.901" height="55.923" style="fill: none; stroke: var(--border-color);"></rect>
   <line style="stroke: var(--border-color);" x1="109.307" y1="206.154" x2="181.246" y2="206.154"></line>
   <line style="stroke: var(--border-color);" x1="115.886" y1="214.64" x2="141.333" y2="214.64"></line>
@@ -17,6 +17,5 @@
   <circle style="fill: none; stroke: var(--border-color);" cx="116.437" cy="200.126" r="2.919"></circle>
   <circle style="fill: none; stroke: var(--border-color);" cx="126.521" cy="200.098" r="2.919"></circle>
   <rect x="155.361" y="234.82" width="35.716" height="27.727" style="stroke-linejoin: round; fill: rgb(255, 255, 255); stroke-dashoffset: -19px; stroke: var(--border-color);"></rect>
-  <path d="M 90.867 260.584 L 98.673 273.746 L 83.061 273.746 L 90.867 260.584 Z" style="fill: var(--back-color);" transform="matrix(0.852805, -0.52223, 0.52223, 0.852805, -44.392689, 67.302589)" bx:shape="triangle 83.061 260.584 15.612 13.162 0.5 0 1@e155e655"></path>
-  <path d="M 90.867 260.584 L 98.673 273.746 L 83.061 273.746 L 90.867 260.584 Z" style="fill: none; stroke: var(--border-color);" transform="matrix(0.852805, -0.52223, 0.52223, 0.852805, -44.368969, 66.915565)" bx:shape="triangle 83.061 260.584 15.612 13.162 0.5 0 1@e155e655"></path>
+  <polygon style="fill: var(--back-color); stroke: var(--border-color);" points="167.774 240.486 167.566 257.279 181.923 248.124"></polygon>
 </svg>

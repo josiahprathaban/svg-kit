@@ -1,0 +1,17 @@
+<svg viewBox="199.535 60.02 141.045 142.222" xmlns="http://www.w3.org/2000/svg">
+    <style>
+          :root{
+            --border-color: rgb(133, 167, 130);
+            --back-color: rgb(194, 228, 191);
+        }
+        </style>
+    <defs></defs>
+    <circle style="fill: none; stroke: var(--border-color); stroke-width: 1.99999px;" transform="matrix(1, 0, 0, 1.000009, -178.228699, -338.48407)" cx="448.5" cy="468" r="57.126"></circle>
+    <circle style="fill: var(--back-color); stroke: var(--border-color); stroke-width: 1.99999px;" transform="matrix(1, 0, 0, 1.000009, -177.544083, -339.168549)" cx="448.5" cy="468" r="37.761"></circle>
+    <circle style="fill: rgb(255, 255, 255); stroke: var(--border-color); stroke-width: 1.99999px;" transform="matrix(1, 0, 0, 1.000009, -178.032974, -339.266052)" cx="448.5" cy="468" r="14.581"></circle>
+    <circle style="fill: var(--back-color); stroke: var(--border-color); stroke-width: 1.99999px;" transform="matrix(1, 0, 0, 1.000009, -178.033173, -339.657501)" cx="448.5" cy="468" r="5.486"></circle>
+    <line style="stroke: var(--border-color); stroke-width: 2px;" x1="270.76" y1="90.887" x2="270.76" y2="61.144"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px;" x1="308.317" y1="128.444" x2="338.481" y2="128.444"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px;" x1="270.76" y1="166.784" x2="270.76" y2="200.242"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px;" x1="233.204" y1="128.444" x2="200.535" y2="128.444"></line>
+  </svg>

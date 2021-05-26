@@ -1,0 +1,22 @@
+<svg viewBox="139.232 47.471 141.986 162.904" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        :root{
+          --border-color: rgb(133, 167, 130);
+          --back-color: rgb(194, 228, 191);
+      }
+      </style>
+    <defs></defs>
+    <path style="fill: var(--back-color);" d="M 180.732 124.923 C 179.827 127.822 208.849 156.295 242.604 131.195"></path>
+    <path style="fill: var(--back-color);" d="M 180.504 125.566 C 180.238 125.211 215.703 99.97 242.604 131.838"></path>
+    <path style="fill: none; stroke-linecap: round; stroke-linejoin: round; stroke: var(--border-color); stroke-width: 2px;" d="M 213.769 141.412 C 246.521 141.41 266.99 105.955 250.613 77.592 C 234.236 49.229 193.295 49.23 176.92 77.596 C 163.357 101.091 174.995 131.997 197.111 136.89" transform="matrix(0.047506, -0.998871, 0.998871, 0.047506, 104.838708, 307.675935)"></path>
+    <polyline style="fill: none; stroke-linecap: round; stroke-linejoin: round; stroke: var(--border-color); stroke-width: 2px;" points="251.297 116.748 278.097 117.228 256.537 101.188"></polyline>
+    <g transform="matrix(-0.970274, 0.242019, -0.242019, -0.970274, 484.90451, 193.518295)">
+      <path style="fill: none; stroke-linecap: round; stroke-linejoin: round; stroke: var(--border-color); stroke-width: 2px;" d="M 258.873 143.39 C 291.624 143.388 312.093 107.933 295.716 79.569 C 279.339 51.208 238.399 51.209 222.024 79.573 C 208.461 103.069 220.099 133.975 242.215 138.868" transform="matrix(0.047506, -0.998871, 0.998871, 0.047506, 145.82359, 354.612819)"></path>
+      <polyline style="fill: none; stroke-linecap: round; stroke-linejoin: round; stroke: var(--border-color); stroke-width: 2px;" points="296.4 118.727 323.2 119.207 301.64 103.167"></polyline>
+    </g>
+    <circle style="stroke: var(--border-color); stroke-width: 2px; fill: rgb(255, 255, 255);" cx="210.163" cy="128.636" r="5.552"></circle>
+    <line style="stroke: var(--border-color); stroke-width: 2px;" x1="193.003" y1="80.757" x2="229.165" y2="80.757"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px;" x1="183.723" y1="91.317" x2="221.213" y2="91.317"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px;" x1="205.483" y1="169.717" x2="240.08" y2="169.717"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px;" x1="193.323" y1="178.677" x2="230.776" y2="178.677"></line>
+  </svg>
