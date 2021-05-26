@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JO-SVG</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="lib/jquery-3.5.1/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <div>
+        <h1>JO-SVG Icons</h1>
+    </div>
+    <div class="icons-grid">
+        <a id="download">
+            <div class="icon">
+                <img src="Development/video.svg">
+                <h3>Video</h3>
+                <span>Download</span>
+            </div>
+        </a>        
+    </div>
+    
+    
+
+<div id="download_popup" class="popup">
+
+    <div class="popup-content">
+      <span class="close">&times;</span>
+      <h2>Download SVG</h2>
+      <div class="view-grid">
+        <div class="view"></div>
+        <div class="color-picker">
+            <div>
+                Select Border color : <input type="color" id="border_color" name="favcolor" value="#48bea3" >
+            </div>
+            <div>
+                Select Background color : <input type="color" id="back_color" name="favcolor" value="#b7f4d4">
+            </div>
+            <div>
+                <a class="download" href-lang='image/svg+xml' download>Download SVG</a>
+            </div>
+
+
+        </div>
+        <div></div>
+        <button id="copy">Copy Code to Clibbord</button>
+      </div>
+      <div id="code" class="code"></div>
+
+    </div>
+  
+  </div>
+
+    <script>
+
+        let popup = document.getElementById("download_popup");
+
+        $("#download").on("click", function() {
+            $.get($(this).children('.icon').children('img').attr('src'), function(data) {
+                $(".view").append(data)
+                $(".view > svg > script").detach()
+                $(".view > svg").contents().each(function() {
+                    if(this.nodeType === Node.COMMENT_NODE) {
+                        $(this).remove();
+                    }
+                });
+                $(".code").text($(".view").html())
+                a(String($(".view").html()));
+
+             }, 'text');
+          $("#download_popup").fadeIn()
+          
+        })
+
+        $(".close").on("click", function() {
+            $("#download_popup").fadeOut(function(){
+                $(".view").empty()
+                $("#border_color").val('#48bea3')
+                $("#back_color").val('#b7f4d4')
+            });
+
+        })
+        
+        $(window).on("click", function(event) {
+          if (event.target == popup) {
+            $("#download_popup").fadeOut(function(){
+                $(".view").empty()
+                $("#border_color").val('#48bea3')
+                $("#back_color").val('#b7f4d4')
+            });
+            
+          }
+        })
+
+        $("#border_color").change(function() {
+            $(".view > svg > style").replaceWith("<style>"+
+                ":root{"+
+                  "--border-color:" +$(this).val()+";"+
+                  "--back-color:" + $("#back_color").val()+";"+
+              "}"+
+              "</style>");
+              $(".code").text($(".view").html());
+              a(String($(".view").html()));
+        });
+
+        $("#back_color").change(function() {
+            $(".view > svg > style").replaceWith("<style>"+
+                ":root{"+
+                  "--border-color:" +$("#border_color").val()+";"+
+                  "--back-color:" + $(this).val()+";"+
+              "}"+
+              "</style>");
+              $(".code").text($(".view").html());
+              a(String($(".view").html()));
+        });
+        
+
+        function a(svg){
+            $('a.download').attr('href', 'data:image/svg+xml;utf-8,' + encodeURIComponent(svg));
+        }
+
+        $('#copy').on("click", function() {
+            
+            var $temp = $("<input>");
+            $("body").append($temp);
+            $temp.val($('#code').text()).select();
+            document.execCommand("copy");
+            $temp.remove();
+    
+          })
+        
+        
+
+        </script>
+    
+</body>
+</html>
