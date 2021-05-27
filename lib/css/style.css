@@ -46,6 +46,29 @@
   }
 body{
     font-family: 'Raleway', sans-serif;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+img {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    user-drag: none;
+    -webkit-touch-callout: none;
+   }
+
+h1,h3,h4,h5,h6,p, .code{
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -o-user-select: text;
+    user-select: text;
 }
 
 .header{
@@ -218,10 +241,11 @@ h3{
       padding: 20px;
       color: var(--text-color-2);
       border-radius: 10px;
+      box-shadow: 0px 1px 1px 1px rgb(223, 223, 223);
   }
 
   .download:hover{
-    box-shadow: 0px 2px 2px 1px rgb(223, 223, 223);
+    box-shadow: 0px 3px 3px 1px rgb(223, 223, 223);
 }
   .code{
       padding: 20px;
@@ -250,7 +274,11 @@ h3{
   }
 
   button:hover, button:active{
-    background-color: rgb(228, 228, 228);
+    background-color: rgb(231, 231, 231);
+  }
+
+  button:active{
+    background-color: rgb(219, 219, 219);
   }
 
   @media only screen and (max-width: 650px){

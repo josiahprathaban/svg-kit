@@ -199,6 +199,11 @@
             document.execCommand("copy");
             $temp.remove();
           })
+
+          
+            $(document).on('contextmenu', 'img', function() {
+                return false;
+            })
         
         
 
