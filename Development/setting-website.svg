@@ -1,0 +1,25 @@
+<svg viewBox="225.938 157.08 165.221 137.198" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        :root{
+          --border-color: rgb(133, 167, 130);
+          --back-color: rgb(194, 228, 191);
+      }
+      </style>
+    <defs></defs>
+    <line style="stroke-width: 2px; fill: var(--back-color);" x1="249.003" y1="265.891" x2="288.641" y2="265.891"></line>
+    <polyline style="fill: var(--back-color);" points="323.155 291.874 332.005 285.437 329.793 277.391 314.907 274.776 315.713 269.95 328.987 267.737 330.395 260.697 320.942 251.846 323.155 246.416 335.827 251.445 341.258 245.009 336.43 233.946 342.866 230.124 351.516 239.578 359.763 235.957 359.963 224.693 367.606 224.895 371.227 238.169 378.469 238.572 385.508 228.716 388.725 230.727 388.725 262.709 385.105 260.094 379.473 256.674 373.037 254.462 366.601 253.858 360.768 256.071 356.543 258.886 351.918 264.116 349.705 268.541 348.095 273.771 347.493 279.805 348.7 283.426 349.705 287.047 352.32 291.069 352.118 291.874 322.953 291.874"></polyline>
+    <polyline style="fill: none; stroke: var(--border-color); stroke-width: 2px;" points="323.553 291.634 331.933 285.554 329.885 277.665 315.365 274.834 315.931 269.738 328.953 267.473 330.651 260.678 321.027 251.62 323.291 245.958 335.747 251.053 341.41 244.825 336.313 234.068 343.108 230.105 351.6 239.73 359.528 236.333 360.094 225.009 367.454 225.009 370.851 238.032 378.212 238.597 385.572 228.971 387.837 230.105"></polyline>
+    <rect x="248.638" y="197.948" width="118.901" height="11.324" style="fill: var(--back-color); stroke: var(--border-color); stroke-width: 2px;"></rect>
+    <rect x="228.181" y="159.047" width="159.74" height="28.142" style="stroke-width: 2px; fill: var(--back-color);"></rect>
+    <line style="stroke: var(--border-color); stroke-width: 2px;" x1="248.637" y1="224.558" x2="315.642" y2="224.558"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px;" x1="248.637" y1="233.618" x2="271.859" y2="233.618"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px;" x1="248.637" y1="240.814" x2="301.862" y2="240.814"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px;" x1="248.876" y1="248.339" x2="288.514" y2="248.339"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px; stroke-dasharray: 10px;" x1="248.675" y1="256.63" x2="302.466" y2="256.63"></line>
+    <rect x="228.254" y="158.88" width="160.232" height="133.056" style="fill: none; stroke: var(--border-color); stroke-width: 2px;"></rect>
+    <line style="stroke: var(--border-color); stroke-width: 2px;" x1="228.392" y1="186.679" x2="387.703" y2="186.679"></line>
+    <circle style="fill: none; stroke: var(--border-color); stroke-width: 2px;" cx="245.113" cy="172.893" r="5.437"></circle>
+    <circle style="fill: none; stroke: var(--border-color); stroke-width: 2px;" cx="262.005" cy="173.231" r="5.437"></circle>
+    <line style="stroke: var(--border-color); stroke-width: 2px;" x1="286.12" y1="172.196" x2="388.746" y2="172.196"></line>
+    <path style="fill: none; stroke: var(--border-color); stroke-width: 2px;" d="M 352.646 292.026 C 335.18 268.515 365.01 238.96 388.173 262.71"></path>
+  </svg>

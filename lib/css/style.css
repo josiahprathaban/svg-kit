@@ -10,6 +10,7 @@
     --back-color-2:rgb(194, 228, 191);
     --back-color-3:rgb(245, 245, 245);
     --back-color-4:rgb(20,137,60);
+    --text-selection:rgb(194, 228, 191);
 }
 
 .preload{
@@ -259,4 +260,15 @@ h3{
         text-align: center;
         margin-bottom: 50px;
     }
+  }
+
+
+  ::-moz-selection {
+    background: var(--text-selection);
+    
+  }
+  
+  ::selection {
+    background: var(--text-selection);
+    
   }

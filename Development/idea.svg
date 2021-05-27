@@ -1,0 +1,54 @@
+<svg viewBox="560.554 82.678 370.732 438.335" xmlns="http://www.w3.org/2000/svg">
+  <style>
+        :root{
+          --border-color: rgb(133, 167, 130);
+          --back-color: rgb(194, 228, 191);
+      }
+      </style>
+  <defs></defs>
+  <path style="fill: none; stroke: var(--border-color); stroke-width: 4px;" d="M 745.819 368.335 C 848.238 368.335 912.25 257.463 861.04 168.767 C 809.831 80.07 681.809 80.07 630.6 168.767 C 610.905 202.881 607.338 243.968 620.861 280.966" transform="matrix(0.81935, -0.573294, 0.573294, 0.81935, -0.139667, 470.136021)"></path>
+  <path style="stroke: var(--border-color); fill: var(--back-color); stroke-width: 4px;" d="M 743.71 434.06 C 769.211 438.234 780.487 468.052 768.764 493.472 C 761.729 508.726 747.448 518.623 730.296 515.815" transform="matrix(0.161542, 0.986866, -0.986866, 0.161542, 1097.161338, -339.978531)"></path>
+  <polyline style="stroke: var(--border-color); fill: var(--back-color); stroke-width: 4px;" points="704.314 287.683 683.463 302.696 675.957 296.023 690.135 275.173 684.297 261.828 653.438 263.496 654.272 254.322 677.625 242.646 678.459 228.467 653.438 214.289 656.774 204.28 685.965 205.114 690.97 194.272 675.123 170.919 682.629 162.579 708.484 176.757 719.327 170.919 716.824 143.396 730.169 141.728 741.011 165.915 754.356 165.081 763.53 143.396 778.543 145.898 776.874 170.085 788.551 178.425 806.065 162.579 819.41 173.421 804.397 189.268 807.734 202.612 835.256 204.28 836.09 217.625 816.074 222.629 815.24 239.31 837.759 253.488 834.422 266.832 811.07 261.828 805.231 274.339 821.912 296.857 811.07 305.198 788.551 290.185 777.708 296.857 777.708 322.712 764.364 324.38 753.522 300.194 741.011 302.696 732.671 325.214 719.327 324.38 716.824 298.526 702.826 287.492"></polyline>
+  <circle style="stroke: var(--border-color); fill: rgb(255, 255, 255); stroke-width: 4px;" cx="746.849" cy="236.808" r="52.351"></circle>
+  <path style="fill: none; stroke: var(--border-color); stroke-width: 4px;" d="M 736.841 185.372 C 719.604 213.452 719.139 248.113 736.376 288.426"></path>
+  <path style="fill: none; stroke: var(--border-color); stroke-width: 4px;" d="M 757.692 185.098 C 775.485 220.132 775.485 254.983 757.692 287.792"></path>
+  <path style="fill: none; stroke: var(--border-color); stroke-width: 4px;" d="M 786.883 203.446 C 793.555 224.299 794.02 245.89 787.348 270.079"></path>
+  <path style="fill: none; stroke: var(--border-color); stroke-width: 4px;" d="M 706.816 269.978 C 699.588 249.125 700.053 228.746 707.281 202.333"></path>
+  <line style="fill: none; stroke: var(--border-color); stroke-width: 4px;" x1="746.641" y1="183.013" x2="746.641" y2="288.522"></line>
+  <path style="fill: none; stroke: var(--border-color); stroke-width: 4px;" d="M 706.638 204.28 C 736.391 212.064 762.151 212.064 788.567 204.28"></path>
+  <path style="fill: none; stroke: var(--border-color); stroke-width: 4px;" d="M 705.148 268.501 C 730.725 251.82 758.526 251.82 788.551 268.501"></path>
+  <line style="stroke: var(--border-color); stroke-width: 4px;" x1="694.097" y1="235.556" x2="800.133" y2="235.556"></line>
+  <line style="stroke: var(--border-color); stroke-width: 4px;" x1="650.311" y1="344.699" x2="843.622" y2="344.699"></line>
+  <line style="stroke: var(--border-color); stroke-width: 4px;" x1="664.199" y1="385.73" x2="826.639" y2="385.73"></line>
+  <line style="stroke: var(--border-color); stroke-width: 4px;" x1="664.199" y1="421.618" x2="824.577" y2="421.618"></line>
+  <polyline style="stroke: var(--border-color); fill: none; stroke-width: 4px;" points="687.201 343.315 687.201 465.433 804.688 465.433 804.688 346.079"></polyline>
+  <line style="stroke: var(--border-color); stroke-dasharray: 2px;" x1="803.0594155778354" y1="349.34035646165086" x2="724.5423530327656" y2="349.34035646165086"></line>
+  <line style="stroke: var(--border-color); stroke-dasharray: 2px;" x1="804.0921804495512" y1="353.4713875828662" x2="735.8986236962743" y2="353.4713875828662"></line>
+  <line style="stroke: var(--border-color); stroke-dasharray: 2px;" x1="804.0921804495512" y1="356.5697105636615" x2="742.0490646948396" y2="356.5697105636615"></line>
+  <line style="stroke: var(--border-color); stroke-dasharray: 2px;" x1="804.0921804495512" y1="361.73350655659266" x2="742.1178662486591" y2="361.73350655659266"></line>
+  <line style="stroke: var(--border-color); stroke-dasharray: 2px;" x1="805.124945321267" y1="367.9300957868875" x2="716.3014312353505" y2="367.9300957868875"></line>
+  <line style="stroke: var(--border-color); stroke-dasharray: 2px;" x1="805.124945321267" y1="372.06109854245506" x2="773.0427584168438" y2="372.06109854245506"></line>
+  <line style="stroke: var(--border-color); stroke-dasharray: 2px;" x1="805.124945321267" y1="376.19215802931825" x2="778.2731437535996" y2="376.19215802931825"></line>
+  <line style="stroke: var(--border-color); stroke-dasharray: 2px;" x1="804.0921804495512" y1="379.29042427881785" x2="785.4738051645801" y2="379.29042427881785"></line>
+  <line style="stroke: var(--border-color); stroke-dasharray: 2px;" x1="803.0594155778354" y1="381.3559540222494" x2="744.1105258199148" y2="381.3559540222494"></line>
+  <line style="stroke: var(--border-color); stroke-dasharray: 2px;" x1="804.0921804495512" y1="389.61807299597587" x2="767.9307717715425" y2="389.61807299597587"></line>
+  <line style="stroke: var(--border-color); stroke-dasharray: 2px;" x1="803.0594155778354" y1="390.65080950204384" x2="744.994693628415" y2="390.65080950204384"></line>
+  <line style="stroke: var(--border-color); stroke-dasharray: 2px;" x1="805.124945321267" y1="396.8473987323387" x2="748.313660062551" y2="396.8473987323387"></line>
+  <line style="stroke: var(--border-color); stroke-dasharray: 2px;" x1="804.0921804495512" y1="399.9456649818383" x2="779.1130186402011" y2="399.9456649818383"></line>
+  <line style="stroke: var(--border-color); stroke-dasharray: 2px;" x1="806.1577101929828" y1="402.01119472526983" x2="749.2713744580318" y2="402.01119472526983"></line>
+  <line style="stroke: var(--border-color); stroke-dasharray: 2px;" x1="803.0594155778354" y1="406.1422542121331" x2="751.4110161029383" y2="406.1422542121331"></line>
+  <line style="stroke: var(--border-color); stroke-dasharray: 2px;" x1="803.0594155778354" y1="410.27331369899633" x2="776.9119815088699" y2="410.27331369899633"></line>
+  <line style="stroke: var(--border-color); stroke-dasharray: 2px;" x1="805.124945321267" y1="415.43710969192745" x2="780.2527583634237" y2="415.43710969192745"></line>
+  <line style="stroke: var(--border-color); stroke-dasharray: 2px;" x1="802.0266507061197" y1="418.53537594142705" x2="743.1592373950297" y2="418.53537594142705"></line>
+  <line style="stroke: var(--border-color); stroke-dasharray: 2px;" x1="804.0921804495512" y1="424.7319651717219" x2="758.6037481410424" y2="424.7319651717219"></line>
+  <line style="stroke: var(--border-color); stroke-dasharray: 2px;" x1="804.0921804495512" y1="428.8630246585852" x2="778.2524955099464" y2="428.8630246585852"></line>
+  <line style="stroke: var(--border-color); stroke-dasharray: 2px;" x1="805.124945321267" y1="432.9940841454483" x2="776.1339387282412" y2="432.9940841454483"></line>
+  <line style="stroke: var(--border-color); stroke-dasharray: 2px;" x1="806.1577101929828" y1="441.25614638787914" x2="766.8991710852717" y2="441.25614638787914"></line>
+  <line style="stroke: var(--border-color); stroke-dasharray: 2px;" x1="804.0921804495512" y1="437.1250869010159" x2="764.5089640560196" y2="437.1250869010159"></line>
+  <line style="stroke: var(--border-color); stroke-dasharray: 2px;" x1="804.0921804495512" y1="443.32167613131077" x2="756.3053218546871" y2="443.32167613131077"></line>
+  <line style="stroke: var(--border-color); stroke-dasharray: 2px;" x1="804.0921804495512" y1="446.41994238081026" x2="747.05604824274" y2="446.41994238081026"></line>
+  <line style="stroke: var(--border-color); stroke-dasharray: 2px;" x1="806.1577101929828" y1="449.51826536160553" x2="735.922317769735" y2="449.51826536160553"></line>
+  <line style="stroke: var(--border-color); stroke-dasharray: 2px;" x1="805.124945321267" y1="452.61653161110513" x2="762.7816990435103" y2="452.61653161110513"></line>
+  <line style="stroke: var(--border-color); stroke-dasharray: 2px;" x1="805.124945321267" y1="457.78032760403636" x2="748.0888131144557" y2="457.78032760403636"></line>
+  <line style="stroke: var(--border-color); stroke-dasharray: 2px;" x1="804.092" y1="460.846" x2="765.533" y2="460.846"></line>
+</svg>

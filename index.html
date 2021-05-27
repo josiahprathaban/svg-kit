@@ -53,123 +53,21 @@
             </div>
         </a> 
         <a class="downloadable"> 
-            <div class="icon" name="Cloud Message">
-                <img src="Development/cloud-message.svg">
-                <h3>Cloud Message</h3>
+            <div class="icon" name="Setting Website">
+                <img src="Development/setting-website.svg">
+                <h3>Setting Website</h3>
                 <span>Download</span>
             </div> 
-        </a> 
-        <a class="downloadable">
-            <div class="icon" name="Video">
-                <img src="Development/video.svg">
-                <h3>Video</h3>
-                <span>Download</span>
-            </div>
-        </a>  
-        <a class="downloadable">
-            <div class="icon" name="Chat">
-                <img src="Development/chat.svg">
-                <h3>Chat</h3>
-                <span>Download</span>
-            </div>
-        </a> 
-
-        <a class="downloadable">
-            <div class="icon" name="Target">
-                <img src="Development/target.svg">
-                <h3>Target</h3>
-                <span>Download</span>
-            </div>
         </a> 
         <a class="downloadable"> 
-            <div class="icon" name="Cloud Message">
-                <img src="Development/cloud-message.svg">
-                <h3>Cloud Message</h3>
+            <div class="icon" name="Idea">
+                <img src="Development/idea.svg">
+                <h3>Idea</h3>
                 <span>Download</span>
             </div> 
         </a> 
-        <a class="downloadable">
-            <div class="icon" name="Video">
-                <img src="Development/video.svg">
-                <h3>Video</h3>
-                <span>Download</span>
-            </div>
-        </a>  
-        <a class="downloadable">
-            <div class="icon" name="Chat">
-                <img src="Development/chat.svg">
-                <h3>Chat</h3>
-                <span>Download</span>
-            </div>
-        </a> 
 
-        <a class="downloadable">
-            <div class="icon" name="Target">
-                <img src="Development/target.svg">
-                <h3>Target</h3>
-                <span>Download</span>
-            </div>
-        </a> 
-        <a class="downloadable"> 
-            <div class="icon" name="Cloud Message">
-                <img src="Development/cloud-message.svg">
-                <h3>Cloud Message</h3>
-                <span>Download</span>
-            </div> 
-        </a> 
-        <a class="downloadable">
-            <div class="icon" name="Video">
-                <img src="Development/video.svg">
-                <h3>Video</h3>
-                <span>Download</span>
-            </div>
-        </a>  
-        <a class="downloadable">
-            <div class="icon" name="Chat">
-                <img src="Development/chat.svg">
-                <h3>Chat</h3>
-                <span>Download</span>
-            </div>
-        </a> 
-
-        <a class="downloadable">
-            <div class="icon" name="Target">
-                <img src="Development/target.svg">
-                <h3>Target</h3>
-                <span>Download</span>
-            </div>
-        </a> 
-        <a class="downloadable"> 
-            <div class="icon" name="Cloud Message">
-                <img src="Development/cloud-message.svg">
-                <h3>Cloud Message</h3>
-                <span>Download</span>
-            </div> 
-        </a> 
-        <a class="downloadable">
-            <div class="icon" name="Video">
-                <img src="Development/video.svg">
-                <h3>Video</h3>
-                <span>Download</span>
-            </div>
-        </a>  
-        <a class="downloadable">
-            <div class="icon" name="Chat">
-                <img src="Development/chat.svg">
-                <h3>Chat</h3>
-                <span>Download</span>
-            </div>
-        </a> 
-
-        <a class="downloadable">
-            <div class="icon" name="Target">
-                <img src="Development/target.svg">
-                <h3>Target</h3>
-                <span>Download</span>
-            </div>
-        </a> 
-           
-    </div>
+        
     
     
 
@@ -212,6 +110,7 @@
 
             let title = $(this).children('.icon').attr('name');
             $('.popup-content').children('h2').replaceWith("<h2>"+title+"</h2>")
+            $('a.download').attr('download',title+".svg");
 
             $.get($(this).children('.icon').children('img').attr('src'), function(data) {
                 $(".view").append(data)
@@ -238,6 +137,7 @@
                 $('.close').css('color','rgb(133, 167, 130');
                 $(".code").css('color','rgb(133, 167, 130');
                 $('.popup-content').css('border-color','rgb(194, 228, 191)');
+                $(':root').css('--text-selection', 'rgb(194, 228, 191)');
             });
 
         })
@@ -252,6 +152,7 @@
                 $('.close').css('color','rgb(133, 167, 130');
                 $(".code").css('color','rgb(133, 167, 130');
                 $('.popup-content').css('border-color','rgb(194, 228, 191)');
+                $(':root').css('--text-selection', 'rgb(194, 228, 191)');
             });
             
           }
@@ -282,6 +183,7 @@
               $(".code").text($(".view").html());
               a(String($(".view").html()));
               $('.download').css('background-color',$(this).val());
+              $(':root').css('--text-selection', $(this).val());
         });
         
 
