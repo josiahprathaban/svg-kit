@@ -1,0 +1,46 @@
+<svg viewBox="337.699 115.771 139.508 139.732" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        :root{
+          --border-color: rgb(133, 167, 130);
+          --back-color: rgb(194, 228, 191);
+      }
+      </style>
+    <defs></defs>
+    <path d="M 374.078 151.596 C 366.16 144.35 365.969 135.861 370.374 129.368 C 371.854 127.187 372.936 124.598 374.343 122.488 C 375.065 121.404 377.636 116.067 377.594 117.368 C 377.379 124.088 379.991 123.659 385.986 133.602 C 386.992 135.271 387.218 136.448 387.177 140.587 C 387.154 142.95 386.259 144.571 384.927 146.568 C 383.841 148.197 382.735 151.261 381.42 152.576" style="stroke: var(--border-color); stroke-width: 2px; fill: var(--back-color); stroke-linejoin: round; stroke-linecap: round;"></path>
+    <path d="M 392.919 131.735 C 392.79 130.836 392.933 125.393 393.264 124.499 C 395.653 118.043 403.117 119.236 405.531 122.473 C 406.621 123.935 406.453 129.837 406.589 131.47" style="stroke: var(--border-color); stroke-width: 2px; fill: var(--back-color); stroke-linejoin: round; stroke-linecap: round;"></path>
+    <polygon style="fill: none; stroke: var(--border-color); stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round;" points="341.17 251.85 473.611 251.85 341.215 119.454"></polygon>
+    <polygon style="stroke: var(--border-color); fill: none; stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round;" points="363.398 229.159 419.894 229.159 419.894 229.159 363.393 172.658"></polygon>
+    <polygon style="stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round; fill: rgb(255, 255, 255);" points="400.010986328125 219.33799743652344 392.8659973144531 198.4340057373047 392.8659973144531 131.47999572753906 406.6260070800781 131.47999572753906 406.6260070800781 198.08999633789062"></polygon>
+    <path d="M 393.895 131.239 C 391.875 153.463 409.171 177.871 398.559 199.094 C 396.49 203.231 398.792 210.479 398.792 214.717 C 398.792 215.389 399.725 219.614 399.725 219.614 C 399.725 214.288 404.854 209.433 404.854 204.69 C 404.854 200.965 406.953 197.461 406.953 193.964 C 406.953 180.965 406.72 168.818 406.72 155.956 C 406.72 150.437 406.487 144.474 406.487 138.934 C 406.487 137.127 406.021 135.398 406.021 133.57 C 406.021 132.557 406.504 129.822 405.787 130.539 C 403.045 133.281 397.917 131.005 393.895 131.005 L 393.895 131.239 Z" style="fill: var(--back-color);"></path>
+    <polygon style="stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round; fill: rgb(255, 255, 255);" points="377.783 216.428 373.549 193.935 373.549 151.324 382.034 151.324 382.034 194.492"></polygon>
+    <line style="stroke: var(--border-color); stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round;" x1="393.131" y1="198.169" x2="406.674" y2="198.169"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round;" x1="342.228" y1="148.406" x2="354.933" y2="148.406"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round;" x1="341.964" y1="157.138" x2="350.996" y2="157.138"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round;" x1="342.228" y1="165.341" x2="354.668" y2="165.341"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round;" x1="342.228" y1="173.28" x2="348.865" y2="173.28"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round;" x1="342.493" y1="181.483" x2="353.884" y2="181.483"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round;" x1="341.699" y1="189.686" x2="349.902" y2="189.686"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round;" x1="341.699" y1="197.89" x2="354.426" y2="197.89"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round;" x1="342.228" y1="206.622" x2="349.642" y2="206.622"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round;" x1="342.228" y1="214.296" x2="353.355" y2="214.296"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round;" x1="342.228" y1="222.235" x2="349.638" y2="222.235"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round;" x1="342.228" y1="230.702" x2="354.163" y2="230.702"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round;" x1="341.964" y1="238.376" x2="349.392" y2="238.376"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round;" x1="361.339" y1="239.17" x2="361.339" y2="251.197"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round;" x1="369.543" y1="243.14" x2="369.543" y2="251.083"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round;" x1="378.01" y1="239.17" x2="378.01" y2="251.406"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round;" x1="386.478" y1="242.875" x2="386.478" y2="251.623"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round;" x1="394.946" y1="239.435" x2="394.946" y2="251.184"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round;" x1="402.62" y1="243.404" x2="402.62" y2="251.078"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round;" x1="410.294" y1="239.964" x2="410.294" y2="250.865"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round;" x1="419.026" y1="242.346" x2="419.026" y2="251.358"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round;" x1="427.23" y1="239.17" x2="427.23" y2="251.078"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round;" x1="435.433" y1="242.081" x2="435.433" y2="251.611"></line>
+    <path d="M 373.857 150.6 C 373.857 153.944 374.97 158.982 376.376 161.793 C 378.078 165.196 375.978 168.157 377.215 171.867 C 378.001 174.225 377.886 176.718 378.894 181.659 C 381.525 194.554 378.261 203.558 378.194 213.279 C 378.474 206.157 382.392 200.351 382.392 192.712 C 382.392 189.655 383.636 182.469 382.252 179.701 C 381.503 178.203 381.005 172.949 381.552 171.307 C 382.764 167.67 382.882 159.976 381.972 156.336 C 381.704 155.266 382.219 152.107 381.552 151.44 C 380.918 150.805 378.637 151.848 378.054 152.139 C 377.183 152.575 375.363 151.16 374.417 151.16 L 373.857 150.6 Z" style="fill: var(--back-color);"></path>
+    <line style="stroke: var(--border-color); stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round;" x1="373.549" y1="159.27" x2="382.017" y2="159.27"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px; fill: var(--back-color); stroke-linejoin: round; stroke-linecap: round;" x1="373.549" y1="168.267" x2="382.017" y2="168.267"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round;" x1="442.578" y1="239.964" x2="442.578" y2="251.37"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round;" x1="450.781" y1="243.669" x2="450.781" y2="251.347"></line>
+    <polygon style="stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round; fill: none; stroke: var(--border-color);" points="400.036 219.465 392.891 198.561 392.891 131.607 406.651 131.607 406.651 198.217"></polygon>
+    <polygon style="stroke: var(--border-color); stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round; fill: none;" points="377.787 216.59 373.553 194.097 373.553 151.486 382.038 151.486 382.038 194.654"></polygon>
+  </svg>

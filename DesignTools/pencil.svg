@@ -1,0 +1,40 @@
+<svg viewBox="112.774 118.116 132.887 137.449" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        :root{
+          --border-color: rgb(133, 167, 130);
+          --back-color: rgb(194, 228, 191);
+      }
+      </style>
+    <defs></defs>
+    <line style="stroke: var(--border-color);" x1="125.901" y1="181.107" x2="125.901" y2="198.033"></line>
+    <line style="stroke: var(--border-color);" x1="146.158" y1="181.373" x2="146.158" y2="197.907"></line>
+    <line style="stroke: var(--border-color);" x1="135.763" y1="186.97" x2="135.763" y2="197.635"></line>
+    <line style="stroke: var(--border-color);" x1="156.02" y1="186.704" x2="156.02" y2="198.444"></line>
+    <line style="stroke: var(--border-color);" x1="201.399" y1="187.504" x2="201.399" y2="197.719"></line>
+    <line style="stroke: var(--border-color);" x1="211.928" y1="180.84" x2="211.928" y2="197.685"></line>
+    <line style="stroke: var(--border-color);" x1="221.658" y1="186.704" x2="221.658" y2="197.635"></line>
+    <line style="stroke: var(--border-color);" x1="232.453" y1="181.107" x2="232.453" y2="197.634"></line>
+    <rect x="182.83" y="145.483" width="8.186" height="87.005" style="fill: rgb(221, 221, 221);"></rect>
+    <path d="M 178.761 120.781 C 179.719 127.49 176.527 134.305 179.427 140.105 C 180.527 142.304 182.676 145.477 184.258 146.268 C 185.142 146.71 186.59 149.089 186.59 148.101 C 186.59 147.852 190.559 146.464 190.921 146.102 C 191.332 145.691 189.609 143.79 189.255 143.436 C 188.72 142.901 189.319 140.232 188.922 139.438 C 187.645 136.884 185.6 134.635 184.758 132.109 C 183.796 129.224 183.024 126.544 180.76 124.279 C 180.28 123.799 179.427 122.043 179.427 121.281 C 179.427 120.734 178.761 119.234 178.761 119.781 C 178.761 120.323 179.094 120.511 179.094 120.947" style="fill: rgb(221, 221, 221);"></path>
+    <path d="M 183.115 231.203 C 183.099 234.967 180.918 243.733 177.261 243.887 C 172.095 244.104 170.783 248.884 174.763 248.884 C 176.373 248.884 182.608 251.534 183.925 250.217 C 184.231 249.911 185.669 249.428 186.09 249.218 C 186.484 249.021 187.111 247.219 187.756 247.219 C 188.166 247.219 191.088 245.117 191.088 244.72 C 191.088 243.655 190.318 241.762 190.921 240.555 C 191.38 239.638 192.143 235.67 191.588 234.558 C 190.254 231.891 185.3 232.059 181.759 232.059 C 180.741 232.059 184.829 232.107 184.829 232.107" style="fill: rgb(221, 221, 221);"></path>
+    <rect x="127.676" y="122.448" width="18.113" height="18.113" style="stroke: var(--border-color); stroke-width: 2px; fill: var(--back-color);"></rect>
+    <rect x="211.524" y="122.649" width="18.113" height="18.113" style="stroke: var(--border-color); stroke-width: 2px; fill: var(--back-color);"></rect>
+    <rect x="211.77" y="233.452" width="18.113" height="18.113" style="stroke: var(--border-color); stroke-width: 2px; fill: var(--back-color);"></rect>
+    <rect x="127.417" y="233.452" width="18.113" height="18.113" style="stroke: var(--border-color); stroke-width: 2px; fill: var(--back-color);"></rect>
+    <rect x="115.774" y="170.576" width="52.308" height="27.428" style="stroke: var(--border-color); stroke-width: 2px; fill: none;"></rect>
+    <rect x="191.078" y="170.317" width="52.03" height="27.428" style="stroke: var(--border-color); stroke-width: 2px; fill: none;"></rect>
+    <polyline style="fill: none; stroke: var(--border-color); stroke-width: 2px; stroke-linejoin: round; stroke-linecap: round;" points="178.909 119.859 168.015 146.161 168.459 242.885 171.874 249.79 186.008 249.79 191.015 244.783 191.115 145.842 179.003 119.969"></polyline>
+    <polyline style="fill: none; stroke: var(--border-color); stroke-width: 2px;" points="167.895 145.74 172.153 148.667 174.814 145.207 178.806 148.667 182.533 145.207 186.525 148.401 191.049 145.473"></polyline>
+    <line style="stroke: var(--border-color); stroke-width: 2px;" x1="167.828" y1="232.363" x2="191.317" y2="232.363"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px;" x1="172.02" y1="148.527" x2="172.02" y2="232.364"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px;" x1="179.006" y1="148.061" x2="179.006" y2="232.363"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px;" x1="185.993" y1="147.13" x2="185.993" y2="232.63"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px;" x1="136.623" y1="169.952" x2="136.623" y2="140.808"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px;" x1="136.157" y1="197.897" x2="136.157" y2="233.428"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px;" x1="145.472" y1="242.143" x2="168.695" y2="242.143"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px;" x1="191.116" y1="242.609" x2="211.553" y2="242.609"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px;" x1="220.458" y1="232.828" x2="220.458" y2="197.497"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px;" x1="220.458" y1="169.486" x2="220.458" y2="141.075"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px;" x1="211.143" y1="130.828" x2="184.395" y2="130.828"></line>
+    <line style="stroke: var(--border-color); stroke-width: 2px;" x1="174.814" y1="130.695" x2="145.537" y2="130.695"></line>
+  </svg>
