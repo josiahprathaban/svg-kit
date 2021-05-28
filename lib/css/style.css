@@ -112,7 +112,7 @@ h1{
 
 .background{
   margin-top: -40px;
-  background-image: url('../images/back.svg');
+  background-image: url(../images/back.svg);
     background-repeat:no-repeat;
     background-size:100vw;
     background-position: center;
@@ -126,7 +126,7 @@ h1{
       
   .background{
     margin-top: -40px;
-    background-image: url('../images/back.svg');
+    background-image: url(../images/back.svg);
       background-repeat:no-repeat;
       background-size:1000px;
       background-position: center;
