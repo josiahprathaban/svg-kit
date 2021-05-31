@@ -105,6 +105,12 @@ h1,h3,h4,h5,h6,p, .code{
     padding-bottom: 20px;
 }
 
+h5{
+  font-size: 20px;
+  font-weight: 400;
+  margin: -15px 0;
+  color: var(--text-color-2);
+}
 
 
 h1{
@@ -143,16 +149,69 @@ h1{
 
 .nav{
   margin-top: -60px;
-  padding: 0 20px
+  padding: 0 20px;
+}
+
+.mobilenav{
+  font-size: 25px;
+  font-weight: 500;
+  color: var(--text-color-1);
+  margin-left: 20px;
+  display: none;
+  cursor: pointer;
+  padding: 2px 7px;
+  background-color: rgb(226, 226, 226);
+  border-radius: 5px;
+}
+.navclose{
+  text-align: right;
+  padding: 10px;
+  font-size: 30px;
+  color: var(--text-color-1);
+  display: none;
+  
+}
+
+.navclose a{
+  cursor: pointer;
+}
+.navback{
+  position:fixed;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  top: 0;
+  left: 0;
+  display: none;
+  
+}
+
+.mobilenav:hover{
+  background-color: rgb(218, 218, 218);
+}
+.mobilenav:active{
+  background-color: rgb(206, 206, 206);
 }
 
 @media only screen and (max-width: 720px){
+  .navclose{
+    display: block;
+    
+  }
       
   .contend{
     display: block;
   }
   .nav{
+    overflow: auto;
     display: none;
+    position:fixed;
+    top: 60px;
+    height: 100%;
+    background-color: rgba(214, 214, 214, 0.95);
+  }
+  .mobilenav{
+    display: inline;
   }
 }
 
@@ -183,6 +242,13 @@ a.main:hover{
 
 }
 
+.sticky {
+  position: fixed;
+  top: 60px;
+  height: 100%;
+  overflow-y: auto;
+}
+
 a.main:active, a.sub:active{
   background-color: rgb(235, 235, 235);
 
@@ -193,7 +259,6 @@ a.main:active, a.sub:active{
   border-radius: 10px;
 
     margin: 10px 20px;
-    padding-bottom: 15px;
     align-items: center;
     text-align: center;
     background-color: rgb(250, 250, 250);
@@ -213,6 +278,7 @@ h4{
   border-radius: 5px;
   border: 1px solid rgb(230, 230, 230);
   margin: 10px;
+  padding-bottom: 15px;
 }
 
 .icon{

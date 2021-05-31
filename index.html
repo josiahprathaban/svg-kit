@@ -9,7 +9,9 @@
     <title>SVG-Kit</title>
     <link rel="icon" href="lib/images/svg-kit-icon.svg" type="image/svg" sizes="16x16">
     <link rel="stylesheet" href="lib/css/style.css">
+    <link rel="stylesheet" href="lib/jquery-ui-1.12.1.custom/jquery-ui.css">
     <script src="lib/jquery-3.5.1/jquery-3.5.1.min.js"></script>
+    <script src="lib/jquery-ui-1.12.1.custom/jquery-ui.js"></script>
 </head>
 <body>
     <div class="preload" id="loading">
@@ -22,31 +24,38 @@
         
         <img src="lib/images/svg-kit.svg"><br/>
         <p> Download free SVG icons, logos, images for your website projects and other. Edit the color of your icons download in svg format or copy the source code.</p><br/>
-        <div class="line1"></div><br/>
-        <div class="line2"></div><br/>
+        
     </div>
+    <div class="navback" id="navback"></div>
+    
     <div class="git">
         <iframe src="https://ghbtns.com/github-btn.html?user=josiahprathaban&repo=svg-kit&type=star&count=true" frameborder="0" scrolling="0" width="80" height="20" title="GitHub"></iframe>
         <iframe src="https://ghbtns.com/github-btn.html?user=josiahprathaban&type=follow&count=true" frameborder="0" scrolling="0" width="200" height="20" title="GitHub"></iframe>
-    </div><br><br>
+    </div>
+    <span class="mobilenav"">&#9776;</span><br><br>
     <div class="contend">
-        <div class="nav">
-            <a href="#" class="main"> SVG Icons</a>
-            <a href="#development" class="sub"> Development</a>
-            <a href="#designTools" class="sub"> Design Tools</a>
-            <a href="#" class="sub"> Business</a>
-            <a href="#" class="sub"> Space</a>
-            <a href="#" class="sub"> Website</a>
-            <a href="#" class="sub"> Devices</a>
+        <div>
 
-            <a href="#" class="main"> SVG Images</a>
-            <a href="#" class="sub"> Development</a>
-            <a href="#" class="sub"> Design</a>
-            <a href="#" class="sub"> Business</a>
-            <a href="#" class="sub"> Space</a>
-            <a href="#" class="sub"> Website</a>
-            <a href="#" class="sub"> Devices</a>
+            <div class="nav" id="nav">
+                <div class="navclose"><a>&times</a></div>
+                <a href="#" class="main"> SVG Icons</a>
+                <a href="#development" class="sub"> Development</a>
+                <a href="#designTools" class="sub"> Design Tools</a>
+                <a href="#" class="sub"> Business</a>
+                <a href="#" class="sub"> Space</a>
+                <a href="#" class="sub"> Website</a>
+                <a href="#" class="sub"> Devices</a>
+    
+                <a href="#" class="main"> SVG Images</a>
+                <a href="#" class="sub"> Development</a>
+                <a href="#" class="sub"> Design</a>
+                <a href="#" class="sub"> Business</a>
+                <a href="#" class="sub"> Space</a>
+                <a href="#" class="sub"> Website</a>
+                <a href="#" class="sub"> Devices</a>
+            </div>
         </div>
+       
         <div class="icons-grid">
             <h1>SVG Icons</h1>
             <div id="development" class="cato">
@@ -338,11 +347,37 @@
 
     <script>
 
+        let numItems = $('.icon').length;
+        
+
         $(window).on('load', function() {
+            $('.header').append("<h5> We have " + numItems + "+ icons yet.</h5><p>everyday we upload 10+ new icons.</p>" )
             $('#loading').fadeOut(1000);
+            
           });
 
+        $(".mobilenav").on("click", function(){
+            $("#nav").show( "slide" )
+            $(".navback").show()
+        })
+        $(".navclose a").on("click", function(){
+            $("#nav").hide( "slide" )
+            $(".navback").hide()
+        })
+
+        let navbar = document.getElementById("nav");
+        let sticky = nav.offsetTop;
+
+        window.onscroll = function() {
+            if (window.pageYOffset >= sticky+120) {
+                $("#nav").addClass("sticky");
+            } else {
+                $("#nav").removeClass("sticky");
+            }
+        };
+
         let popup = document.getElementById("download_popup");
+        let navback = document.getElementById("navback");
 
         $(".downloadable").on("click", function() {
 
@@ -381,6 +416,10 @@
         })
         
         $(window).on("click", function(event) {
+            if(event.target == navback){
+                $("#nav").hide( "slide" )
+                $(".navback").hide()
+            }
           if (event.target == popup) {
             $("#download_popup").fadeOut(function(){
                 $(".view").empty()
