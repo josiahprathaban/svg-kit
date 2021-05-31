@@ -1,0 +1,18 @@
+<svg viewBox="216.678 249.904 92.937 94.914" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        :root{
+          --border-color: rgb(133, 167, 130);
+          --back-color: rgb(194, 228, 191);
+      }
+      </style>
+    <defs></defs>
+    <polygon style="fill: var(--back-color);" points="264.272 339.283 224.234 285.254 237.042 269.217 256.953 269.217 256.953 269.217 248.342 285.145"></polygon>
+    <polygon style="fill: var(--back-color);" points="264.339 339.316 248.29 284.724 256.972 269.202 270.127 269.07 279.73 284.593"></polygon>
+    <polygon style="fill: rgba(255, 255, 255, 0.6);" points="264.536 339.448 248.487 284.856 257.169 269.334 270.324 269.202 279.927 284.725"></polygon>
+    <polygon style="stroke: var(--border-color); fill: none;" points="264.445 339.964 224.117 284.917 236.775 269.316 290.645 269.316 303.89 285.506"></polygon>
+    <polyline style="stroke: var(--border-color); fill: none;" points="257.086 269.316 248.255 284.678 264.445 338.594 279.752 284.389 270.627 269.606"></polyline>
+    <line style="stroke: var(--border-color);" x1="224.361" y1="285.212" x2="303.302" y2="285.212"></line>
+    <polygon style="stroke-miterlimit: 1; stroke-linejoin: round; stroke-width: 0.3px; fill: var(--back-color); stroke: var(--border-color);" points="227.0570068359375 256.3630065917969 226.47000122070312 260.7170104980469 224.58900451660156 262.0119934082031 220.76199340820312 263.0159912109375 224.70799255371094 263.6629943847656 226.47000122070312 265.427001953125 227.23500061035156 269.6619873046875 227.8820037841797 265.427001953125 229.2949981689453 263.77801513671875 232.8280029296875 262.83599853515625 229.2989959716797 262.19000244140625 227.9550018310547 260.6499938964844 227.11599731445312 256.3599853515625"></polygon>
+    <polygon style="stroke-miterlimit: 1; stroke-linejoin: round; stroke-width: 0.3px; fill: var(--back-color); stroke: var(--border-color);" points="236.284 256.31 235.969 258.649 234.959 259.345 232.902 259.884 235.023 260.231 235.969 261.18 236.38 263.454 236.727 261.18 237.487 260.293 239.384 259.787 237.488 259.44 236.766 258.613 236.316 256.308"></polygon>
+    <polygon style="fill: var(--back-color);" points="235.642 330.888"></polygon>
+  </svg>

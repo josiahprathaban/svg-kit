@@ -55,6 +55,7 @@ body{
     user-select: none;
     margin: 0;
     overflow-x: hidden;
+    background-color: rgb(245, 245, 245);
 }
 
 .line{
@@ -83,71 +84,135 @@ h1,h3,h4,h5,h6,p, .code{
 
 .header{
     text-align: center;
-    padding: 30vh 20px 20vh 20px;
+    padding: 100px 20px 20px 20px;
+    background-image: url(../images//banner/banner.svg);
+    background-repeat:no-repeat;
+    background-size:100vw;
+    background-position: center;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 3px 1px rgba(49, 49, 49, 0.171);
+    
+    
 }
 
 .header p{
     font-size: 14px;
     letter-spacing: 2px;
-    font-weight: 200;
+    font-weight: 300;
     max-width: 400px;
     display: inline-block;
     line-height: 18px;
     padding-bottom: 20px;
-    border-bottom: 2px solid var(--back-color-2);
 }
+
+
 
 h1{
-  padding: 10px;
+  padding: 15px 20px;
   margin: 0%;
   border-radius: 10px 10px 0 0;
-  border-bottom: 1px solid var(--border-color-2);
-  background-color: var(--back-color-4);
-    text-align: center;
-    font-size: 40px;
-    font-weight: 400;
-    letter-spacing: 2px;
-    color: var(--text-color-3);
+  background-color: rgb(240, 240, 240);
+    text-align: left;
+    font-size: 25px;
+    font-weight: 500;
+    color: var(--text-color-1);
 }
 
-.background{
-  margin-top: -40px;
-  background-image: url(../images/back.svg);
-    background-repeat:no-repeat;
-    background-size:100vw;
-    background-position: center;
-  position:absolute;
-  z-index: -1;
-  width: 100vw;
-  height: 110vh;
-}
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 850px){
       
-  .background{
-    margin-top: -40px;
-    background-image: url(../images/back.svg);
-      background-repeat:no-repeat;
-      background-size:1000px;
-      background-position: center;
-    position:absolute;
-    z-index: -1;
-    width: 100vw;
-    height: 100vh;
+  .header{
+    background-size:900px;
+    
+}
+}
+
+
+@media only screen and (max-width: 500px){
+      
+  .header{
+    background-size:900px;
+    
+}
+}
+
+.contend{
+  display: grid;
+  grid-template-columns: 200px auto;
+}
+
+.nav{
+  margin-top: -60px;
+  padding: 0 20px
+}
+
+@media only screen and (max-width: 720px){
+      
+  .contend{
+    display: block;
   }
+  .nav{
+    display: none;
+  }
+}
+
+.nav a{
+  color: var(--back-color-1);
+}
+
+
+.nav .main {
+  display: block;
+  padding: 5px 10px ;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.nav .sub {
+  display: block;
+  padding: 2px 20px;
+  
+}
+
+a.sub:hover{
+  font-weight: 500;
+
+}
+
+a.main:hover{
+  font-weight: 700;
+
+}
+
+a.main:active, a.sub:active{
+  background-color: rgb(235, 235, 235);
+
 }
 
 
 .icons-grid{
-  border: 1px solid var(--border-color-2);
   border-radius: 10px;
 
-    margin: 10px 10%;
+    margin: 10px 20px;
     padding-bottom: 15px;
     align-items: center;
     text-align: center;
-    background-color: white;
-    box-shadow: 3px -2px 5px 3px rgba(49, 49, 49, 0.075);
+    background-color: rgb(250, 250, 250);
+    box-shadow: 0px 2px 3px 2px rgba(49, 49, 49, 0.171);
+}
+
+h4{
+  margin: 10px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--text-color-1);
+  background-color: transparent
+}
+
+.cato{
+  border-radius: 5px;
+  border: 1px solid rgb(230, 230, 230);
+  margin: 10px;
 }
 
 .icon{

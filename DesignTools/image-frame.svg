@@ -1,0 +1,16 @@
+<svg viewBox="76.773 212.199 80.721 95.651" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        :root{
+          --border-color: rgb(133, 167, 130);
+          --back-color: rgb(194, 228, 191);
+      }
+      </style>
+  <defs></defs>
+  <circle style="stroke: var(--border-color); fill: none; stroke-width: 1.3px;" cx="122.494" cy="219.737" r="3.538"></circle>
+  <polyline style="fill: none; stroke: var(--border-color); stroke-width: 1.3px;" points="90.914 251.361 90.914 240.721 155.494 240.721 155.494 295.157 144.335 295.157"></polyline>
+  <rect x="79.036" y="251.113" width="65.818" height="54.436" style="fill: none; stroke: var(--border-color); stroke-width: 1.3px;"></rect>
+  <polygon style="stroke: var(--border-color); fill: var(--back-color);" points="79.036 305.302 79.036 294.662 103.781 274.62 124.317 291.198 116.894 285.259 129.761 274.867 144.854 286.249 144.854 305.798"></polygon>
+  <circle style="stroke: var(--border-color); fill: var(--back-color);" cx="118.46" cy="266.373" r="4.899"></circle>
+  <line style="stroke: var(--border-color); stroke-width: 1.3px;" x1="100.316" y1="240.721" x2="119.587" y2="221.45"></line>
+  <line style="stroke: var(--border-color); stroke-width: 1.3px;" x1="145.102" y1="240.721" x2="125.801" y2="221.42"></line>
+</svg>
