@@ -163,6 +163,14 @@ h1{
   background-color: rgb(226, 226, 226);
   border-radius: 5px;
 }
+#mobilenav img{
+  top: 13px;
+  left: calc(50vw - 50px);
+  position:absolute;
+  display: none;
+  width: 100px;
+}
+
 .navclose{
   text-align: right;
   padding: 10px;
@@ -176,6 +184,7 @@ h1{
   cursor: pointer;
 }
 .navback{
+  z-index: 99;
   position:fixed;
   width: 100%;
   height: 100%;
@@ -248,6 +257,15 @@ a.main:hover{
   height: 100%;
   overflow-y: auto;
 }
+.stickymob{
+  position: fixed;
+  padding-top: 18px;
+  top: 0;
+  width: 100%;
+  background-color: rgb(246, 246, 246);
+  box-shadow: 0px 2px 3px 2px rgba(49, 49, 49, 0.171);
+}
+
 
 a.main:active, a.sub:active{
   background-color: rgb(235, 235, 235);
@@ -290,29 +308,10 @@ h4{
 }
 
 .icon:hover{
-    position: relative;
     cursor: pointer;
+    border: 1px solid rgb(230, 230, 230);
 }
 
-.icon span {
-    display: none
-}
-.icon:hover span {
-    font-size: 12px;
-    font-weight: 400;
-    display: block;
-    background-color: var(--back-color-2);
-    z-index: 100;
-    position: absolute;
-    text-decoration: none;
-    border-radius: 10px;
-    padding: 5px;
-    color: var(--text-color-3);
-    right: 0px;
-    left: 0px;
-    bottom: -10px;
-    text-align: center;
-}
 
 a{
     text-decoration: none;
@@ -414,10 +413,6 @@ h3{
       text-align: center;
   }
  
-  #border_color, #back_color{
-      
-  }
-
   .download{
       background-color: var(--back-color-2);
       padding: 20px;
@@ -494,113 +489,66 @@ h3{
   }
 
   .footer{
-    margin-top: 100px;
+    position:sticky;
+    margin: 100px 0 0 0 ;
+    background-color: rgb(230, 230, 230);
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 100px auto auto;
+    box-shadow: 0px -2px 5px 1px rgba(49, 49, 49, 0.171);
+    align-items: center;
+  }
+  .footer img{
+    display: inline-block;
+    width: 100px;
+    border-radius: 50px;
   }
 
-  /* .back{
-      position: relative;     
+  .footer div{
+    align-items: center;
+    display: inline-block;
+    padding: 20px;
   }
 
-  .area{
-    position: absolute;
+  .footer h1{
+    color: var(--text-color-1);
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    background-color: transparent;
+  }
+  .footer h2{
+    color: var(--text-color-1);
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    background-color: transparent;
+  }
+  .footer h3{
+    margin-top: 2px;
+    color: var(--text-color-1);
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    background-color: transparent;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+
+  .footer a{
+    padding-right: 10px;
+    opacity: 0.8;
+  }
+
+  .footer a:hover{
     opacity: 1;
-    z-index: -1;
-    left: -45vw;
-    top: -40vw;
-      width: 100vw;
   }
 
-  .bug1{
-      opacity: 0.2;
-      width: 3vw;
-    position: absolute;
-      left: 5vw;
-      animation-name:buging1;
-    animation-duration: 13s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+  .footer a img{
+    width: 20px;
+    border-radius: 0;
   }
-
-  @keyframes buging1 {
-    100% {transform: rotate(360deg);}
-  }
-
-
-.bug2{
-    opacity: 0.2;
-    width: 5vw;
-  position: absolute;
-    left: 13vw;
-    top: 5vw;
-    animation-name:buging2;
-  animation-duration: 14s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
-@keyframes buging2 {
-  100% {transform: rotate(-360deg);}
-}
-
-.bug3{
-    opacity: 0.2;
-    width: 4vw;
-  position: absolute;
-    left: 4vw;
-    top: 12vw;
-    animation-name:buging1;
-  animation-duration: 16s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
-.bug4{
-    opacity: 0.2;
-    width: 6vw;
-  position: absolute;
-    left: 20vw;
-    top: 15vw;
-    animation-name:buging1;
-  animation-duration: 50s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
-.bug5{
-    opacity: 0.2;
-    width: 3vw;
-  position: absolute;
-    left: 10vw;
-    top: 20vw;
-    animation-name:buging2;
-  animation-duration: 30s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
-.bug6{
-    opacity: 0.2;
-    width: 6vw;
-  position: absolute;
-    left: 2vw;
-    top: 30vw;
-    animation-name:buging1;
-  animation-duration: 14s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
-
-.bug7{
-    opacity: 0.3;
-    width: 2vw;
-  position: absolute;
-    left: 2vw;
-    top: 40vw;
-    animation-name:buging2;
-  animation-duration: 13s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
- */
+ 
