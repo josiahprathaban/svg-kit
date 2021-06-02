@@ -1,10 +1,10 @@
 <svg viewBox="15.145 19.443 636.325 347.289" xmlns="http://www.w3.org/2000/svg">
   <style>
         :root{
-          --color1: rgb(44, 103, 155);
+          --color1: rgb(140, 140, 140);
           --color2: rgb(133, 167, 130);
           --color3: rgb(194, 228, 191);
-          --color4: rgb(186, 229, 255);
+          --color4: rgb(210, 210, 210);
       }
 
       .load{
