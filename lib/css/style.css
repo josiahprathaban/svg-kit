@@ -119,6 +119,7 @@ h5 {
 }
 
 .search {
+    position: relative;
     background-color: rgba(255, 255, 255, 0.7);
     margin-bottom: 30px;
     width: 590px;
@@ -129,8 +130,17 @@ h5 {
 
 .search a {
     cursor: pointer;
-    margin-right: 40px;
+    margin-right: 30px;
     position: relative;
+}
+
+#clearbutton {
+    position: absolute;
+    padding: 5px;
+    font-size: 30px;
+    right: 5%;
+    color: var(--text-color-3);
+    display: none;
 }
 
 #searchResult {
@@ -351,7 +361,8 @@ h4 {
     padding: 20px;
     border-radius: 10px;
     margin: 5px;
-    width: 300px;
+    width: calc(100vw - 110px);
+    max-width: 300px;
     display: inline-block;
 }
 
