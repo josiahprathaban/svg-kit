@@ -1,0 +1,15 @@
+<svg viewBox="174.548 49.08 76.564 75.547" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    :root{
+      --border-color: rgb(133, 167, 130);
+      --back-color: rgb(194, 228, 191);
+  }
+  </style>
+    <defs></defs>
+    <circle style="stroke: var(--border-color); fill: var(--back-color);" cx="213.426" cy="87.362" r="11.169"></circle>
+    <circle style="stroke: var(--border-color); fill: none;" cx="213.425" cy="87.361" r="29.714"></circle>
+    <line style="stroke: var(--border-color);" x1="213.51152311802412" y1="57.58707169005196" x2="213.51152311802412" y2="49.08001590959839"></line>
+    <line style="stroke: var(--border-color);" x1="243.24368080232574" y1="87.36176400097385" x2="251.112717183475" y2="87.36176400097385"></line>
+    <line style="stroke: var(--border-color);" x1="213.25631146408162" y1="117.2215275122467" x2="213.25631146408162" y2="124.62706437026"></line>
+    <line style="stroke: var(--border-color);" x1="183.52415377978002" y1="87.4893698279451" x2="174.54830610743232" y2="87.4893698279451"></line>
+  </svg>

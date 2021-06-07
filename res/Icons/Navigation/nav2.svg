@@ -1,0 +1,22 @@
+<svg viewBox="532.074 165.104 76.071 66.096" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    :root{
+      --border-color: rgb(133, 167, 130);
+      --back-color: rgb(194, 228, 191);
+  }
+  </style>
+  <defs></defs>
+  <line style="stroke: var(--border-color); stroke-linecap: round;" x1="541.305" y1="207.676" x2="541.305" y2="214.221"></line>
+  <circle style="fill: none; stroke: var(--border-color); stroke-linecap: round;" cx="541.497" cy="202.867" r="4.507"></circle>
+  <line style="stroke: var(--border-color); stroke-linecap: round;" x1="579.594" y1="223.108" x2="579.594" y2="229.653"></line>
+  <circle style="fill: none; stroke: var(--border-color); stroke-linecap: round;" cx="579.786" cy="218.298" r="4.507"></circle>
+  <path style="stroke: var(--border-color); fill: none; stroke-linecap: round;" d="M 536.494 212.294 C 537.254 211.99 519.098 224.101 575.552 224.993"></path>
+  <path style="stroke: var(--border-color); fill: none; stroke-linecap: round;" d="M 583.25 224.608 C 583.25 224.608 612.688 222.106 603.452 212.872"></path>
+  <line style="stroke: var(--border-color); fill: none; stroke-linecap: round;" x1="597.873" y1="207.826" x2="597.873" y2="214.37"></line>
+  <circle style="stroke: var(--border-color); fill: none; stroke-linecap: round;" cx="598.064" cy="203.017" r="4.507"></circle>
+  <path style="stroke: var(--border-color); fill: none; stroke-linecap: round;" d="M 587.29 216.142 C 587.29 216.142 604.335 210.589 574.976 209.216"></path>
+  <path style="stroke: var(--border-color); fill: none; stroke-linecap: round;" d="M 564.201 209.216 C 564.201 209.216 541.179 210.024 547.945 214.344 C 554.712 218.664 571.705 217.681 571.705 217.681"></path>
+  <path style="fill: var(--back-color);" d="M 568.847 213.203 L 568.504 208.395 L 565.642 201.926 L 562.035 196.832 L 557.398 191.966 L 555.051 188.379 L 554.078 182.139 L 554.536 178.132 L 556.311 174.182 L 559.345 170.919 L 562.436 168.401 L 566.157 167.313 L 568.904 167.027 L 568.962 178.132 L 567.531 178.361 L 566.157 179.449 L 564.955 181.624 L 565.126 183.627 L 566.271 185.459 L 568.389 186.604 L 570.565 186.547 L 572.225 185.402 L 573.484 183.742 L 573.656 181.853 L 573.14 180.307 L 571.767 178.704 L 568.848 178.131 L 568.733 166.97 L 569.935 166.798 L 571.824 166.969 L 573.77 167.542 L 576.861 168.973 L 579.609 170.748 L 582.299 174.068 L 583.845 177.216 L 584.646 179.22 L 584.933 182.654 L 584.589 185.974 L 583.387 189.237 L 581.555 191.985 L 579.838 193.53 L 578.121 195.076 L 576.403 197.08 L 574.801 198.74 L 573.026 201.316 L 571.309 204.407 L 570.164 206.811 L 569.534 210.532 L 568.847 213.203 Z"></path>
+  <circle style="stroke: var(--border-color); fill: none;" cx="569.319" cy="182.307" r="4.299"></circle>
+  <path style="stroke: var(--border-color); fill: none;" d="M 579.836 193.722 C 579.836 193.722 569.553 201.271 568.992 213.494 M 558.962 193.703 C 558.962 193.703 568.487 201.308 569.047 213.532 M 579.749 193.786 C 588.518 185.823 585.38 171.354 574.099 167.739 C 562.814 164.126 551.857 174.084 554.366 185.657 C 555.059 188.85 556.749 191.739 559.19 193.903"></path>
+</svg>

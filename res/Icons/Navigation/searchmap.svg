@@ -1,0 +1,15 @@
+<svg viewBox="412.84 163.596 77.002 70.315" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    :root{
+      --border-color: rgb(133, 167, 130);
+      --back-color: rgb(194, 228, 191);
+  }
+  </style>
+    <defs></defs>
+    <polyline style="stroke: var(--border-color); fill: none;" points="472.204 220.801 472.204 231.996 451.883 223.579 432.615 231.56 414.262 223.959 414.262 164.894 433.572 172.894 451.934 165.288 471.726 173.485 471.726 180.32"></polyline>
+    <polyline style="fill: rgb(216, 216, 216); stroke: var(--border-color);" points="452.183 165.167 452.183 179.467"></polyline>
+    <polyline style="fill: rgb(216, 216, 216); stroke: var(--border-color);" points="433.724 172.968 433.724 231.208"></polyline>
+    <path style="stroke: var(--border-color); fill: var(--back-color);" d="M 469.712 212.292 L 483.265 225.846 C 483.265 225.846 489.928 228.543 487.002 222.108 L 473.396 208.502"></path>
+    <path d="M 543 456 m -17.364 0 a 17.364 17.364 0 1 0 34.728 0 a 17.364 17.364 0 1 0 -34.728 0 Z M 543 456 m -12.401 0 a 12.401 12.401 0 0 1 24.802 0 a 12.401 12.401 0 0 1 -24.802 0 Z" style="stroke: var(--border-color); fill: var(--back-color);" transform="matrix(-0.686916, 0.726737, -0.726737, -0.686916, 1163.738858, 117.346662)"></path>
+    <line style="stroke: var(--border-color);" x1="451.578" y1="224.188" x2="451.578" y2="217.359"></line>
+  </svg>

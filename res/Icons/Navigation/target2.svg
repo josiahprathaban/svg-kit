@@ -1,0 +1,15 @@
+<svg viewBox="294.938 48.91 74.692 75.202" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    :root{
+      --border-color: rgb(133, 167, 130);
+      --back-color: rgb(194, 228, 191);
+  }
+  </style>
+    <defs></defs>
+    <path style="stroke: var(--border-color); fill: var(--back-color); stroke-miterlimit: 8;" d="M 332.184 51.977 L 328.121 73.85 C 328.121 73.85 324.153 74.757 322.06 77.318 C 319.969 79.879 319.527 83.068 319.527 83.068 L 297.811 87.13 L 318.903 91.348 C 318.903 91.348 319.839 94.719 322.247 97.099 C 324.654 99.478 327.871 100.223 327.871 100.223 L 332.184 121.033 L 336.088 100.723 C 336.093 100.68 339.358 99.728 341.714 97.286 C 344.071 94.843 344.526 91.818 344.526 91.818 L 366.398 87.13 L 345.463 83.068 C 345.463 83.068 344.087 79.351 341.587 77.162 C 339.089 74.972 336.246 74.475 336.246 74.475 L 332.184 51.977 Z"></path>
+    <path style="stroke: var(--border-color); fill: none; stroke-linecap: round;" d="M 309.834 93.684 C 309.834 93.684 313.287 105.424 324.464 109.005"></path>
+    <path style="stroke: var(--border-color); fill: none; stroke-linecap: round;" d="M 310.306 64.958 C 310.306 64.958 313.759 76.699 324.936 80.277" transform="matrix(0.017474, 0.999847, -0.999847, 0.017474, 384.677304, -246.223925)"></path>
+    <path style="stroke: var(--border-color); fill: none; stroke-linecap: round;" d="M 339.302 65.021 C 339.302 65.021 342.756 76.762 353.932 80.341" transform="matrix(-0.999868, 0.016238, -0.016238, -0.999868, 694.368503, 139.724057)"></path>
+    <path style="stroke: var(--border-color); fill: none; stroke-linecap: round;" d="M 339.24 93.913 C 339.24 93.913 342.694 105.654 353.87 109.234" transform="matrix(-0.040056, -0.999197, 0.999197, -0.040056, 258.944626, 451.918992)"></path>
+    <circle style="stroke: var(--border-color); fill: rgb(255, 255, 255); stroke-linecap: round;" cx="332.113" cy="87.211" r="4.857"></circle>
+  </svg>
