@@ -1,0 +1,21 @@
+<svg viewBox="158.6 331.031 60.711 60.173" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        :root{
+          --border-color: rgb(133, 167, 130);
+          --back-color: rgb(194, 228, 191);
+      }
+      </style>
+    <defs></defs>
+    <path style="fill:  var(--back-color);" d="M 204.633 335.714 L 214.736 345.613 L 217.694 342.655 L 217.796 338.878 L 211.675 332.755 L 207.183 332.959"></path>
+    <path style="fill:  var(--back-color);" d="M 164.017 387.045 L 165.65 382.35 L 168.406 384.8 L 164.017 387.045 Z"></path>
+    <path style="stroke:  var(--border-color); fill: none;" d="M 164.017 386.943 L 169.63 370.513 L 207.44 332.704 L 211.471 332.704 L 217.835 339.069 L 217.835 342.663 L 180.009 380.49 L 164.017 386.943 Z"></path>
+    <path style="  stroke:  var(--border-color);" d="M 160.038 387.352 L 195.959 387.352"></path>
+    <path style="  stroke:  var(--border-color);" d="M 200.755 387.352 L 205.155 387.352"></path>
+    <path style="stroke:  var(--border-color); fill: none;" d="M 169.528 371.431 L 172.487 371.431 L 172.487 375.006 L 175.857 375.006 L 175.857 377.963 L 178.306 377.963 L 178.306 380.72"></path>
+    <path style="  stroke:  var(--border-color);" d="M 204.633 335.51 L 214.584 345.462"></path>
+    <path style="  stroke:  var(--border-color);" d="M 172.692 371.228 L 206.42 337.501"></path>
+    <path style="  stroke:  var(--border-color);" d="M 175.856 374.8 L 209.737 340.918"></path>
+    <path style="  stroke:  var(--border-color);" d="M 178.407 377.758 L 212.593 343.572"></path>
+    <path style="  stroke:  var(--border-color);" d="M 165.65 381.841 L 168.671 384.862"></path>
+    <circle style="fill:  var(--back-color); stroke:  var(--border-color);" cx="198.306" cy="387.351" r="2.638"></circle>
+  </svg>

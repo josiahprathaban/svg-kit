@@ -1,0 +1,33 @@
+<svg viewBox="465.868 329.956 58.131 60.781" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        :root{
+          --border-color: rgb(133, 167, 130);
+          --back-color: rgb(194, 228, 191);
+      }
+      </style>
+    <defs></defs>
+    <path style="fill:  var(--back-color);" d="M 513.416 338.854 L 520.426 345.723 L 522.479 343.671 L 522.549 341.05 L 518.302 336.802 L 515.186 336.943" transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, -89.59546, 466.222419)"></path>
+    <path style="fill:  var(--back-color);" d="M 516.712 387.299 L 517.845 384.041 L 519.757 385.741 L 516.712 387.299 Z" transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, -120.922501, 479.407254)"></path>
+    <path style="stroke:  var(--border-color); fill: none;" d="M 499.485 380.158 L 503.38 368.758 L 529.613 342.525 L 532.41 342.525 L 536.826 346.942 L 536.826 349.436 L 510.58 375.681 L 499.485 380.158 Z" transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, -103.742791, 472.225731)"></path>
+    <path style="stroke:  var(--border-color); fill: none;" d="M 514.738 374.438 L 516.791 374.438 L 516.791 376.918 L 519.13 376.918 L 519.13 378.97 L 520.829 378.97 L 520.829 380.883" transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, -115.391025, 476.742405)"></path>
+    <path style=" stroke:  var(--border-color);" d="M 514.382 339.236 L 521.286 346.141" transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, -90.647285, 466.535079)"></path>
+    <path style=" stroke:  var(--border-color);" d="M 503.104 371.036 L 526.506 347.635" transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, -103.305685, 469.269036)"></path>
+    <path style=" stroke:  var(--border-color);" d="M 506.355 371.214 L 529.864 347.706" transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, -102.425835, 471.642143)"></path>
+    <path style=" stroke:  var(--border-color);" d="M 508.952 371.37 L 532.671 347.651" transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, -101.670152, 473.567536)"></path>
+    <path style=" stroke:  var(--border-color);" d="M 516.99 383.496 L 519.086 385.592" transform="matrix(0.707107, -0.707107, 0.707107, 0.707107, -120.183859, 478.938511)"></path>
+    <rect x="466.807" y="335.375" width="41.88" height="54.423" style="fill: none; stroke:  var(--border-color);"></rect>
+    <rect x="471.696" y="341.327" width="11.586" height="11.586" style="stroke:  var(--border-color); fill:  var(--back-color);"></rect>
+    <rect x="471.59" y="357.166" width="32.314" height="3.72" style="stroke:  var(--border-color); fill:  var(--back-color);"></rect>
+    <line style="stroke:  var(--border-color);" x1="471.378" y1="365.669" x2="504.118" y2="365.669"></line>
+    <line style="stroke:  var(--border-color);" x1="471.378" y1="368.858" x2="494.232" y2="368.858"></line>
+    <line style="stroke:  var(--border-color);" x1="471.378" y1="372.047" x2="503.373" y2="372.047"></line>
+    <line style="stroke:  var(--border-color);" x1="471.378" y1="375.342" x2="503.586" y2="375.342"></line>
+    <line style="stroke:  var(--border-color);" x1="497.951" y1="378.318" x2="471.378" y2="378.318"></line>
+    <line style="stroke:  var(--border-color);" x1="503.691" y1="381.613" x2="471.378" y2="381.613"></line>
+    <path style="stroke:  var(--border-color); fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M 471.59 332.93 C 471.59 332.93 473.052 330.433 474.672 331.973 C 476.293 333.512 474.24 338.089 473.751 337.498"></path>
+    <path style="stroke:  var(--border-color); fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M 477.327 332.802 C 477.327 332.802 478.789 330.306 480.409 331.845 C 482.03 333.385 479.977 337.961 479.488 337.37"></path>
+    <path style="stroke:  var(--border-color); fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M 483.022 332.625 C 483.022 332.625 484.484 330.128 486.104 331.668 C 487.725 333.207 485.672 337.784 485.183 337.192"></path>
+    <path style="stroke:  var(--border-color); fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M 488.575 332.625 C 488.575 332.625 490.037 330.128 491.658 331.668 C 493.278 333.207 491.225 337.784 490.737 337.192"></path>
+    <path style="stroke:  var(--border-color); fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M 494.386 332.589 C 494.386 332.589 495.848 330.093 497.468 331.632 C 499.089 333.171 497.036 337.748 496.547 337.157"></path>
+    <path style="stroke:  var(--border-color); fill: none; stroke-linecap: round; stroke-linejoin: round;" d="M 500.01 332.447 C 500.01 332.447 501.472 329.95 503.093 331.49 C 504.714 333.029 502.66 337.606 502.172 337.014"></path>
+  </svg>

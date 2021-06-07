@@ -1,0 +1,22 @@
+<svg viewBox="371.307 329.727 43.538 60.609" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        :root{
+          --border-color: rgb(133, 167, 130);
+          --back-color: rgb(194, 228, 191);
+      }
+      </style>
+    <defs></defs>
+    <path style="stroke:  var(--border-color); fill: none;" d="M 395.904 386.951 L 395.904 389.248 L 392.211 389.248 L 392.211 386.96 L 387.696 386.96 L 387.761 381.718 L 384.47 381.718 L 384.47 369.202 C 384.47 369.202 368.25 356.547 384.47 342.701 C 384.47 342.701 392.857 334.956 403.167 342.701 C 403.167 342.701 418.771 354.136 403.167 368.934 L 403.167 381.716 L 399.929 381.716 L 399.929 386.951 L 395.904 386.951 Z"></path>
+    <path style="stroke:  var(--border-color); fill:  var(--back-color);" d="M 381.926 378.08 L 405.334 378.08"></path>
+    <path style="stroke:  var(--border-color); fill:  var(--back-color);" d="M 405.455 374.718 L 382.009 374.718"></path>
+    <path style="stroke:  var(--border-color); fill:  var(--back-color);" d="M 393.752 355.076 L 390.927 360.189 L 387.673 360.189 L 393.482 374.852 L 400.343 360.054 L 397.09 360.054 L 393.752 355.076 Z"></path>
+    <path style="fill: none; stroke:  var(--border-color);" d="M 392.191 386.958 L 396.056 386.958"></path>
+    <path style="fill: none; stroke:  var(--border-color);" d="M 387.563 381.712 L 399.94 381.712"></path>
+    <path style="fill: none; stroke:  var(--border-color);" d="M 376.129 344.047 L 372.219 340.136"></path>
+    <path style="fill: none; stroke:  var(--border-color);" d="M 380.838 339.877 L 378.416 335.841"></path>
+    <path style="fill: none; stroke:  var(--border-color);" d="M 386.622 337.052 L 385.276 332.209"></path>
+    <path style="fill: none; stroke:  var(--border-color);" d="M 392.944 335.976 L 392.944 330.996"></path>
+    <path style="fill: none; stroke:  var(--border-color);" d="M 399.4 336.917 L 400.612 331.939"></path>
+    <path style="fill: none; stroke:  var(--border-color);" d="M 405.455 338.8 L 408.145 334.361"></path>
+    <path style="fill: none; stroke:  var(--border-color);" d="M 410.431 343.239 L 414.064 339.607"></path>
+  </svg>
