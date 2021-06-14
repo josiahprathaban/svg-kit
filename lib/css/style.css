@@ -563,12 +563,31 @@ button:active {
 .git {
     margin: 20px;
 }
-
-iframe {
+.git a{
+    margin-left: 10px;
     float: right;
-    margin-bottom: 10px;
-    text-align: right;
+    text-decoration: none;
+    color: var(--text-color-1);
+    font-size: 12px;
+    font-weight: 600;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(219, 219, 219);
+
 }
+.git img{
+    width: 12px;
+}
+
+.git a:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+.git a:active{
+    background-color: rgb(230, 230, 230);
+}
+
 
 .footer {
     position: sticky;
